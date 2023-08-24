@@ -17,7 +17,7 @@ Exemplos:
 |  abcde          |  digite um email válido       |
 | teste@teste.com |  mensagem enviada com sucesso |
 
-Cenário: Realizar cadastro digitando o código 
+Cenário: Realizar cadastro digitando o código recebido por email 
     Quando o usuário clica em Receber código de acesso por email para realizar cadastro
-    E digita o código enviado para seu email
+    E digitar o código enviado para seu email
     Então o usuário consegue logar na aplicação

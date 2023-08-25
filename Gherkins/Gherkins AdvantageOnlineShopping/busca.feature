@@ -31,4 +31,8 @@ Funcionalidade: Busca
 # segunda execução = Tablets
 # terceira execução = Laptops
 # ...
+    @search_for_product_nonexistent
+    Cenário: Buscar por produto inexistente
+        Quando realizo uma busca por produto inexistente
+        Então uma mensagem é exibida na busca 
     

@@ -34,3 +34,8 @@ Cenário: Aumentar quantidade do produto na PDP aumenta no carrinho
 Cenário: Adicionar produto ao carrinho pela PDP
     Quando adicionar o produto ao carrinho
     Então o produto deverá ser adicionado ao carrinho com sucesso
+
+@todecrease_product_quantity_only_pdp
+Cenário: Diminuir a quantidade do produto na PDP
+    Quando diminuir a quantidade do produto
+    Então deverá diminuir a quantidade exibida na PDP

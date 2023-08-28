@@ -1,5 +1,4 @@
 require 'capybara/dsl'
-
 class BasePage
     include Capybara::DSL
     

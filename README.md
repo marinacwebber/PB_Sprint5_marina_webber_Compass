@@ -24,6 +24,7 @@ Inserção de TAGs para ajudar a separar os testes por Suite ou por execução s
 
 - **Uso de Page Objects com Capybara:** Com métodos padrão que podem ser aproveitados por outros pages. Ajuda a manter os testes organizados e facilita a manutenção. 
 - **Automações para Front-End - Inspeção de elementos Web** - "DevTools" (Ferramentas de Desenvolvedor). É importante guardar/organizar os elementos em constantes no nosso código de automação. Colocando padrão e inserindo o seletor. 
+
 ###
 
 <h1 align="center">Sobre o projeto</h1>

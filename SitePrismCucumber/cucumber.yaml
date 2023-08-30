@@ -1,0 +1,12 @@
+# esta criando diferentes perfis de execução no meu arquivo 
+# estes perfis mudam conforme o nosso teste
+# dependendo do que a gente executar, ele vai mudar o ambiente(execução multiambiente)
+default: -p prd -p chrome
+default_hml: -p hml -p chrome
+
+hml: ENVIRONMENT="hml"
+prd: ENVIRONMENT="prd"
+
+chrome: BROWSER="chrome"
+
+headless: HEADLESS="true"

@@ -7,21 +7,19 @@ Funcionalidade: Página do Produto
   QUERO poder personalizar os produtos que irei comprar na página do produto
   PARA ter uma melhor experiência de comprar
 
-Contexto: Estar na página de um produto
-  Dado que esteja na home
-  Quando realizar uma busca por produto existente
-  E acessar a página do produto
+Contexto: Estar na pagina de um produto
+  Dado que esteja na pagina de um produto existente
 
 @change_color_pdp
 Cenário: Trocar a cor do produto na PDP
   Quando alterar a cor do produto
-  Então deverá alterar a imagem apresentada na PDP
+  Então devera alterar a imagem apresentada na PDP
 
 @increase_product_quantity
 @increase_product_quantity_only_pdp
 Cenário: Aumentar a quantidade do produto na PDP
   Quando aumentar a quantidade do produto
-  Então deverá aumentar a quantidade exibida na PDP
+  Então devera aumentar a quantidade exibida na PDP
 
 @increase_product_quantity
 @increase_product_quantity_validate_cart

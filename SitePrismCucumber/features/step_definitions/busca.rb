@@ -14,7 +14,7 @@ Então('deverao ser retornados resultados na busca') do
     expect(@search_results_page.products.first.all_there?).to be_truthy
 end
 
-Quando('buscar pelo produto {string}') do |product|
+Quando('buscar pelo produto {product}') do |product|
     @home_page.search_for(product)
     @search_results_page = Pages::SearchResults.new
 end

@@ -13,6 +13,7 @@ Então('deverao ser retornados resultados na busca') do
     expect(@search_results_page).to have_products
     expect(@search_results_page.products.first.all_there?).to be_truthy
 end
+# all_there?).to be_truthy - neste contexto é a mesma coisa que as validaçoes de cada uma separadamente: to have_name; to have_price; to have_image
 
 Quando('buscar pelo produto {string}') do |product|
     @home_page.search_for(product)

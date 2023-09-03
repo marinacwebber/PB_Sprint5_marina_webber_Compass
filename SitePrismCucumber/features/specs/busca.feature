@@ -18,7 +18,7 @@ Funcionalidade: Busca
     @search_for_different_product
     Esquema do Cenário: Buscar por produtos existentes
         Quando buscar pelo produto "<produto>"
-        Então deverão ser retornados resultados na busca
+        Então deverao ser retornados resultados na busca
 
         Exemplos:
         |    produto    |

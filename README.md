@@ -31,7 +31,7 @@
 
 - **Git** Baixar o git:** https://git-scm.com/downloads <br>
 
--**Criar conta no Github:** https://github.com/
+- **Criar conta no Github:** https://github.com/
 
 - **Configurar o projeto - VS Code:**  <br>
 -Baixar as dependências: 'cucumber' 'capybara' 'site_prism' 'selenium-webdriver' 'rspec' 'pry' 'faker' <br> 

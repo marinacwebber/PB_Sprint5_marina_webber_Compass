@@ -3,6 +3,6 @@ module Pages
         set_url '/'
 
         elements :colors, '.productColor'
-        element  :main_image, '#mainImg'
+        element :main_image, '#mainImg'
     end
 end

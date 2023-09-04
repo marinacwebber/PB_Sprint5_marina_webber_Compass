@@ -25,9 +25,9 @@
 
 
 - **VS Code com os pluguins:** <br>
-* Intalação através do link: https://code.visualstudio.com/ <br>
-* Cucumber (Gherkin) Full Support e Snippers and Syntax Highlight for Gherkin, Solargraph<br> 
-* Ruby<br>
+*Intalação através do link: https://code.visualstudio.com/ <br>
+*Cucumber (Gherkin) Full Support e Snippers and Syntax Highlight for Gherkin, Solargraph<br> 
+*Ruby<br>
 
 - **Git** Baixar o git:** https://git-scm.com/downloads <br>
 
@@ -39,6 +39,8 @@ No terminal: `bundle install` (vai criar a pasta de estrutura base) <br>
 No terminal: `cucumber --init` <br>
 
 - **Armazenar os códigos do projeto nos arquivos dentro das pastas.** 
+
+###
 
 ## 📒 Execução dos testes  
 

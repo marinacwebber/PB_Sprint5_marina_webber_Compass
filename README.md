@@ -1,59 +1,57 @@
-﻿<br clear="both">
-
+﻿
 <div align="center">
-  <img height="109" src="https://portal.megabrasil.com.br/imagens/20211108_61893b11458eb.jpg"  />
+  <img height="109" src="https://s3.sa-east-1.amazonaws.com/remotar-assets-prod/company-profile-covers/cl7god9gt00lx04wg4p2a93zt.jpg"  />
 </div>
 
 ###
 
-<h2 align="center">Challenge PB- Sprint 5</h2>
+<h1 align="center">Challenge PB- Sprint 5</h1 >
 
 ###
 
-<h1 align="center">Sprint 5</h1>
+<h2 align="center">🔖 Projeto de automação de testes</h2>
 
 ###
 
-<p align="left"> Nesta sprint começamos a nos aprofundar na analize e prática dos testes automatizados em um site e-commerce, garantindo que as funcionalidades funcionem conforme o esperado. 
-Os temas abordados foram: </p>
-
-- **Análise com Mapas mentais e Gherkin:** Os mapas mentais - Descrever as funcionalidades de teste em um e-commerce e Gherkin - Criando cenários para documentar e automatizar testes.   Ferramentas: x-mind e VS Code - Pluguins: Cucumber (Gherkin) Full Support e Snippers and Syntax Highlight for Gherkin.
-Criação das features com cenários e esquemas de cenários.
-Inserção de TAGs para ajudar a separar os testes por Suite ou por execução separada na hora de executar os testes automatizados. Pode adicionar em cima de um cenário ou funcionalidade(depende da estratégia da execução), talhando quantas vezes quiser, porém para não poluir o texte o ideal é 1 tag por cenário. 
-- **Projeto com Capybara e Cucumber:** Cucumber - para descrever os testes em Gherkin, vai executar os testes. Capybara - Framework que facilita o uso de selenium-webdriver com Ruby. Documentação do cucumber: https://github.com/cucumber/cucumber-ruby. Documentação do Capybara: https://github.com/teamcapybara/capybara. Nesta documentação encontramos ações básicas como procurar por elementos e fazer ações neles.
-
-- **Uso de Page Objects com Capybara:** Com métodos padrão que podem ser aproveitados por outros pages. Ajuda a manter os testes organizados e facilita a manutenção. 
-- **Automações para Front-End - Inspeção de elementos Web** - "DevTools" (Ferramentas de Desenvolvedor). É importante guardar/organizar os elementos em constantes no nosso código de automação. Colocando padrão e inserindo o seletor. 
+<p align="left"> Durante esta sprint, foi realizado a análise e prática dos testes automatizados, para garantir que todas as funcionalidades funcionem conforme o esperado em um website. Foi aprofundado o conhecimento na escrita de cenários de teste com a linguagem Gherkin, mapeamento de elementos HTML(Devtools), o uso do Cucumber - para descrever os testes em Gherkin, onde ele vai executar os testes. Capybara - Framework que facilita o uso de selenium-webdriver com Ruby. O padrão de projeto Page Objects com Capybara onde os métodos padrão que podem ser aproveitados por outros pages. O auxílio do SitePrism, ajudando a manter os testes organizados e facilita a manutenção. Além disso, foi abordado massas de dados estáticas e dinâmicas. Esta sprint ajudou a entender a importância essencial para garantir a qualidade e confiabilidade de um website.  </p>
 
 ###
 
-<h1 align="center">Sobre o projeto</h1>
+## 📒 Pré-requisitos para o projeto
 
-###
+<p align="left">Para este projeto é preciso configurar um ambiente de desenvolvimento e ter conhecimento destas tecnologias. Para as instalações dos links abaixo, sempre deve ter cuidado para selecionar as versões compativeis com o sistema operacional. </p>
 
-## Funcionalidades
-
-
-###
+- **Ruby** Baixe e instale o Ruby. Intalação através do link: https://rubyinstaller.org/downloads/. <br>
 
 
-<h3 align="left">Pré-requisitos </h3>
+- **VS Code com os pluguins:** <br>
+* Intalação através do link: https://code.visualstudio.com/ <br>
+* Cucumber (Gherkin) Full Support e Snippers and Syntax Highlight for Gherkin, Solargraph<br> 
+* Ruby<br>
 
-###
+- **Git** Baixar o git:** https://git-scm.com/downloads <br>
 
+-**Criar conta no Github:** https://github.com/
 
-- **Configurar o projeto - VS Code:**  -Baixar a estrutura base para criar os testes. No arquivo Gemfile iremos baixar as dependências: 'cucumber', 'capybara', 'selenium-webdriver' e 'rspec' com o comando `bundle install` e para criar a pasta de estrutura base digitar `cucumber --init` <br>
-- Instanciar um browser para a execução dos testes ou para fazer subir ele. No arquivo env.rb inserir: Capybara.default_driver = :selenium_chrome
+- **Configurar o projeto - VS Code:**  <br>
+-Baixar as dependências: 'cucumber' 'capybara' 'site_prism' 'selenium-webdriver' 'rspec' 'pry' 'faker' <br> 
+No terminal: `bundle install` (vai criar a pasta de estrutura base) <br>
+No terminal: `cucumber --init` <br>
 
-## Execução dos testes  
+- **Armazenar os códigos do projeto nos arquivos dentro das pastas.** 
+
+## 📒 Execução dos testes  
 
 - **Executa todos os testes no formato .feature do projeto:**    `bundle exec cucumber`  <br>
-Aós executar este comando vai ser retornado uma mensagem com os cenários e steps. Podendo trazer sugestão de snippets(pagina:step_definitions)
+Aós executar este comando vai ser retornado uma mensagem com os cenários e steps. Podendo trazer sugestão de snippets(pagina:step_definitions) <br>
 
+- **Executa os testes definidos no perfil "default" que são marcados com a tag @search_for_product:** `bundle exec cucumber -p default -t@search_for_product`<br>
+
+- **Publicar os resultados dos testes após a execução, ficam dentro da pasta "Reports"** `bundle exec cucumber -p default -t@search_for_product --publish`<br>
 
 ###
 
-## Deploy - Realizar Pull Request
+## 📒 Deploy - Realizar Pull Request
 <p align="left">Quer alterar este projeto? </p>
 
 - **Criar uma nova branch:** - No terminal:  `git checkout -b nova_branch` 
@@ -64,14 +62,13 @@ Aós executar este comando vai ser retornado uma mensagem com os cenários e ste
 
 ## Autora
 
-
 - **Marina Chaves Webber:**  - https://github.com/marinacwebber/PB_Sprint5_marina_webber_Compass
 
 ###
 ## Créditos
 
-- **Site pesquisado:** - 
-- **Site pesquisado:** - 
+- **Site pesquisado:** - https://stackoverflow.com/
+- **Site pesquisado:** - https://github.com/cucumber/cucumber-ruby; https://github.com/teamcapybara/capybara; https://github.com/site-prism/site_prism
 
 ###
 ## Licença

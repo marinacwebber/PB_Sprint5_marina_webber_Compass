@@ -1,6 +1,6 @@
 ﻿
 <div align="center">
-  <img height="109" src="https://s3.sa-east-1.amazonaws.com/remotar-assets-prod/company-profile-covers/cl7god9gt00lx04wg4p2a93zt.jpg"  />
+  <img height="109" src="https://upload.wikimedia.org/wikipedia/commons/f/f3/LogoCompasso-positivo.png"  />
 </div>
 
 ###

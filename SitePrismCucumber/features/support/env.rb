@@ -5,6 +5,7 @@ require 'capybara'
 require 'site_prism'
 require 'capybara/cucumber'
 require 'pry'
+require 'faker'
 
 
 ENVIRONMENT = ENV['ENVIRONMENT']
